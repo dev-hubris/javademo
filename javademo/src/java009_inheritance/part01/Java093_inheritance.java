@@ -2,7 +2,7 @@ package java009_inheritance.part01;
 
 //상속(inheritance)
 //1. 기본 클래스를 재사용해서 새로운 클래스를 정의하는 기능이다.
-//2. 두 클래스를 조상과 자손 관계를 맺어준다. (extends)
+//2. 두 클래스를 조상과 자손 관계를 맺어준다. (extends) // python : class A(B)
 //3. 상속을 해주는 클래스 : 수퍼클래스(Super class), 부모클래스, 기본클래스
 // 상속을 받는 클래스 : 서브클래스 , 자식클래스, 유도클래스
 //4. 자식(손)클래스는 조상의 모든 자원을 상속받는다. ( 생성자, static{} 은 제외)
@@ -31,7 +31,7 @@ public class Java093_inheritance {
 		Child child = new Child();
 		System.out.println(child.a);
 		// c변수는 private으로 선연되여 있기 때문에 상속이 안된다.
-		// System.out.println(child.c);
+//		 System.out.println(child.c);
 
 		child.display();
 
